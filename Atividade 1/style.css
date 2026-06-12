@@ -1,0 +1,13 @@
+h1 {
+    width: 60%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    background-color: black;
+}
+
+th,
+td {
+    border: 1px solid #333;
+    padding: 12px;
+    text-align: center;
+}
