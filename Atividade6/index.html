@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crácha virtual</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+
+<body class="container p-5">
+    <main>
+        <form>
+            <h1>Crachá Virtual</h1>
+            <div class="container">
+                <label class="form-label" for="nome"> Digite seu nome: </label>
+                <input class="form-control p-3" type="text" id="funcionario.Nome">
+            </div>
+            <div class="container">
+                <label class="form-label" for="nome"> Digite sua idade: </label>
+                <input class="form-control p-3" type="text" id="funcionario.Idade">
+            </div>
+            <div class="container">
+                <label class="form-label" for="nome"> Digite seu cargo: </label>
+                <input class="form-control p-3" type="text" id="funcionario.Cargo">
+            </div>
+            <div class="container">
+                <label class="form-label" for="nome"> Digite seu Departamento: </label>
+                <input class="form-control p-3" type="text" id="funcionario.Departamento">
+            </div>
+            <div class="container">
+                <label class="form-label" for="nome"> Tem acesso restrito? </label>
+                <input class="form-control p-3" type="text" id="funcionario.Acesso_Restrito">
+            </div>
+            <button class="btn btn-primary" onclick="imprimirnome()">Enviar dados</button>
+            <script src="cracha.js"></script>
+        </form>
+    </main>
+</body>
+
+</html>
