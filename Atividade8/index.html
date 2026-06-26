@@ -1,30 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testes funções</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
+
 <body>
     <main>
-        <h1>Teste de funções matemáticas</h1>
+        <!--
+        Cálculadora
+        -->
+        <h1>
+            <p style="text-align: center;">Teste de funções matemáticas.</p>
+        </h1>
         <h2>Operações</h2>
-        <label for="primeiro-numero">Digite o primeiro numero:</label>
+        <label for="primeiro-numero">Digite o primeiro número:</label>
         <input type="number" id="primeiro-numero">
         <br>
-        <label for="segundo-numero">Digite o segundo numero:</label>
+        <label for="segundo-numero">Digite o segundo número:</label>
         <input type="number" id="segundo-numero">
         <br>
         <button onclick="soma()">SOMA</button>
         <button onclick="subtracao()">SUBTRAÇÃO</button>
         <button onclick="multiplicacao()">MULTIPLICAÇÃO</button>
         <button onclick="divisao()">DIVISÃO</button>
+        <button onclick="elevado()">ELEVADO</button>
         <br>
         <p>Seu resultado é: <strong id="resultado"></strong></p>
         <br>
         <br>
         <button onclick="apagarLocalStorage()">Apagar histórico</button>
         <script src="js/funcoes.js"></script>
+
+        <br>
+        <br>
+        <!--
+        Imposto do TAXAD (MAKE L)
+        -->
+        <p style="text-align: center;">O lulão tá precisando viajar com a Janjota, você não vai e ainda vai pagar,
+            portanto ajude esse casal a ficar mais feliz!</p>
+
+        <h2>Comprinhas da Shoppee</h2>
+
+        <label for="valor-real">Digite o valor do produto em R$:</label>
+        <input type="number" id="valor-real">
+        <br>
+
+        <label for="valor-dolar">Digite o valor do dólar hoje:</label>
+        <input type="number" id="valor-dolar">
+        <br>
+
+        <button onclick="conversao()">CONVERTER</button>
+        <br>
+
+        <p>Seu resultado é R$: <strong id="resultado-conversao"></strong></p>
+        <br>
+        <br>
+
+        <button onclick="apagarLocalStorage()">Apagar histórico</button>
+        <script src="js/funcoes.js"></script>
     </main>
 </body>
+
 </html>
